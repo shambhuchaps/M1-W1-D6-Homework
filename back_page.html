@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back page cover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Merriweather:wght@700&family=Mr+Dafoe&family=Roboto:wght@100;300;400;500;700;900&family=Smooch&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Merriweather:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+
+        }
+
+        .main {
+            width: 100%;
+            height: auto;
+            background-color: rgb(18, 18, 62);
+            display: flex;
+            justify-content: center;
+        }
+
+        .contain {
+            width: 50%;
+            height: auto;
+            background-image: linear-gradient(rgba(73, 43, 172, 0.5), rgba(30, 14, 104, 0.5)), url("image/myimg.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 1.5rem;
+            text-align: justify;
+        }
+
+        .mainhead,
+        .spn2,
+        .spn {
+            color: #fff;
+            font-size: 28pt;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 0;
+            text-align: justify;
+            margin-top: 0;
+        }
+
+        .spn {
+            font-family: 'Cedarville Cursive', cursive;
+            color: yellow;
+            font-weight: 200;
+        }
+
+        .spn2 {
+            color: red;
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: 25pt;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 14pt;
+            line-height: 1.5rem;
+            margin-top: 0;
+        }
+        .low-contain{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .imag img {
+            width: 250px;
+            height: auto;
+            border: 1px dashed black;
+            border-radius: 50%;
+    
+        }
+        .text{
+            padding: 1.2rem;
+            padding-left: 2.5rem;
+            
+        }
+        .text p{
+            line-height: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        .bar{
+            float: right;
+        }
+        .bar img{
+            width: 250px;
+            height: auto;
+        }
+        .last-button{
+                display: flex;
+                justify-content: space-evenly;
+                padding: 2em;
+                background-color: rgb(18, 18, 62);
+            }
+
+            .last-button button{
+                background-color: rgb(149, 216, 93);
+                font-size: 12pt;
+                border: transparent;
+                padding: .5em;
+                width: 11em;
+                border-radius: 2em;
+                font-weight: 600;
+            }
+            .last-button button:hover{
+                background-color: #94d85dc8;
+                cursor: pointer;
+            }
+
+            .last-button button a{
+                text-decoration: none;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contain">
+            <h1 class="mainhead">ARTIFICIAL INTELLIGENCE <span class="spn">In</span>
+                <span class="spn2">HEALTCARE</span>
+            </h1>
+            <h2>About this book</h2>
+            <p>Do you want to know the relationship between Artificial Intelligence (AI) &
+                healthcare,& how AI is improving healthcare? Technology is evolving rapidly,&
+                you need to keep up to stay at the top. Artificial Intelligence (AI) is revolutionixing
+                all aspects of healthcare & this book is intended to be your companion on this joureny.
+                <br><br>
+                AI in healthcare is an umbrella term to describe the application of machine learning (ML) algorithms and
+                other cognitive technologies in medical settings. In the simplest sense, AI is when computers and other
+                machines mimic human cognition, and are capable of learning, thinking, and making decisions or taking
+                actions. AI in healthcare, then, is the use of machines to analyze and act on medical data, usually with
+                the goal of predicting a particular outcome.
+            </p>
+            <div class="low-contain">
+                <div class="imag">
+                    <img src="https://d28htnjz2elwuj.cloudfront.net/wp-content/uploads/2020/12/15131630/qK1zTSFU_400x400.jpg"
+                        alt="Mike Adams picture">
+                </div>
+                <div class="text">
+                    <h2>About the author</h2>
+                    <p>Adams was born on October 30, 1964, in Columbus, Mississippi, to Joe Dee Adams, Jr. and Julia
+                        Marilyn Rester Adams,and raised in Clear Lake City, Texas. He graduated from Clear Lake High
+                        School in 1983, and earned an associate degree in psychology from San Jacinto College in
+                        Pasadena, Texas. He then transferred to Mississippi State University, where he was a member
+                        of Sigma Chi, to finish his Bachelor of Arts in 1987.</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="image/sample-barcode.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+    <div class="last-button">
+        <a href="#"><button>Last Page</button></a>
+        <a href="index.html"><button>Cover Page</button></a>
+    </div>
+
+</body>
+
+</html>

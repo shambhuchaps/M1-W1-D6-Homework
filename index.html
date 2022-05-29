@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cover</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .main {
+            width: 60%;
+            margin: auto;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #B0E0E6;
+
+        }
+        /* section{
+            background-color: #B0E0E6;
+            width: 100%;
+            margin-inline: auto;
+        } */
+        .hero {
+            width: 50%;
+            height: 600px;
+            background-color: #000000;
+            transform: skewY(-2deg);
+            border: 3px solid black;
+
+        }
+
+        .hero2 {
+            width: 1.2rem;
+            height: 585px;
+            background-color: whitesmoke;
+            margin-top: 25px;
+            margin-bottom: 40px;
+            transform: skewY(3deg);
+
+        }
+        .hero h1 span {
+            color: white;
+            font-size: 2.5rem;
+            margin: 1.5rem;
+            margin-left: 2rem;
+            margin-bottom: 0;
+            letter-spacing: 2px;
+            line-height: 1em;
+        }
+
+        .hero h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin: 1.5rem;
+            margin-left: 5rem;
+            margin-bottom: 0;
+            line-height: 1em;
+        }
+
+        .hero .line {
+            color: rgba(255, 255, 255, 0.63);
+            margin-inline:  40%;;
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 0;
+            position: absolute;
+            top: 2.8em;
+        }
+
+        .par {
+            font-size: 1.2rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.63);
+            margin-top: 1.9em;
+            letter-spacing: 0;
+        }
+        .marg{
+            width: 100%;
+        }
+        .imgcontant {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            margin-top: 2em;
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+            display: block;
+            height: 340px;
+            opacity: 0.9;
+        }
+
+        .lsttext {
+            color:white;
+            position: absolute;
+            bottom: 0.1em;
+            left: 8.9em;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        .btn{
+            width: 64%;
+            display: flex;
+            justify-content: space-around;
+            background-color: #B0E0E6;
+            margin: auto;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+        }
+        .btn button{
+            background-color: rgb(149, 216, 93);
+                font-size: 12pt;
+                border: transparent;
+                padding: .5em;
+                width: 11em;
+                border-radius: 2em;
+                font-weight: 600;
+        }
+        .btn button:hover{
+            background-color: #94d85dc8;
+                cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="hero">
+            <h1><span> ARTIFICIAL </span><br> INTELLIGENCE</h1>
+            <p class="line">_____</p>
+            <p class="par">THIS IS HOW ROBOTS <br> WILL CHANGE THE WORLD</p>
+        
+
+                <div class="imgcontant">
+                    <img src="image/ai-getty.jpg" alt="book img">
+                </div>
+                <p class="lsttext">Mike Adams</p>
+
+        </div>
+        <div class="hero2">
+        </div>
+    </div>
+    <div class="btn">
+        <a href="front_page.html"> <button>Next Page</button></a>
+        <a href="back_page.html" ><button>Back Page</button></a> 
+    </div>
+
+</body>
+
+</html>
